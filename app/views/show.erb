@@ -3,6 +3,8 @@
   <head>
     <h1> <%= @article.title %> </h1>
     <h2> <%= @article.content %> </h2>
-    <form action='/articles/<%= @article.id %>/delete' method=DELETE></form>
+    <form action='/articles/<%= @article.id %>/delete' method=POST>
+      
+    </form>
   </head>
 </html>
